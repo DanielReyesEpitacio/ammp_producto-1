@@ -2,7 +2,6 @@ import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 export default function Photos(props){
-  console.log(props.data);
     return(
       <section class="bg-dark mt-5">
         <Carousel>

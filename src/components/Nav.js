@@ -5,6 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Photos from '../pages/Photos';
+import AudioVideo from '../pages/AudioVideo'
 import { useEffect, useState } from "react";
 import getPokesInfo from '../apis/getPokes';
 
@@ -31,7 +32,7 @@ function Navs() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="fotos">Fotos</Nav.Link>
-            <Nav.Link href="#pricing">Videos</Nav.Link>
+            <Nav.Link href="/audio-video">Videos</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
@@ -39,6 +40,7 @@ function Navs() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="fotos" element={<Photos data={urlImages}/>}/>
+            <Route path="audio-video" element={<AudioVideo />}  />
         </Routes>
     </BrowserRouter>
   </>
