@@ -1,13 +1,15 @@
 import audio from '../../src/resources/music.mp3';
+import "../estilos/paginas.css"
 export default function AudioVideo(){
 
     return(
         <>
-            <section class="mt-5">
+            <section class="mt-5 container">
                 <div class="row  text-center">
-                    <div class="col embed-responsive embed-responsive-16by9">
+                    <div class="col col-sm-12 ratio ratio-16x9" id="viframe">
                         <iframe
                             class="embed-responsive-item"
+                            width="150px"
                             src="https://www.youtube.com/embed/LYU-8IFcDPw" 
                             title="YouTube video player" 
                             frameborder="0" 

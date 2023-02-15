@@ -7,12 +7,11 @@ import Home from '../pages/Home';
 import Photos from '../pages/Photos';
 import AudioVideo from '../pages/AudioVideo'
 import { useEffect, useState } from "react";
-import getPokesInfo from '../apis/getPokes';
+import "../estilos/nav.css"
 
 function Navs() {
 
-    //const urlPokes=[];
-    const [urlPokes, setUrlPokes] = useState([]);
+
     //const urlImages= [];
     const [urlImages, setUrlImage] = useState([]);
 
@@ -27,12 +26,12 @@ function Navs() {
 
     <> 
         <BrowserRouter>
-        <Navbar bg="primary" variant="dark">
+        <Navbar id="navar" variant="dark">
         <Container>
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="fotos">Fotos</Nav.Link>
-            <Nav.Link href="/audio-video">Videos</Nav.Link>
+            <Nav.Link id="link" href="/">Home</Nav.Link>
+            <Nav.Link id="link" href="fotos">Fotos</Nav.Link>
+            <Nav.Link id="link" href="/audio-video">Videos</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

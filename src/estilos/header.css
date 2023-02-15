@@ -1,0 +1,14 @@
+#dre{
+    padding-top: 30pt;
+    padding-bottom: 30pt;
+    border-top-right-radius: 10pt;
+    border-top-left-radius: 10pt;
+    background-image: url("https://w.wallhaven.cc/full/4l/wallhaven-4lkpqp.png");
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(165, 42, 42, 0.418);
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

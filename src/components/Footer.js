@@ -1,7 +1,8 @@
+import "../estilos/footer.css"
 export default function Footer(){
     
     return(
-        <footer class="container mt-5 bg-info text-light">
+        <footer class="container mt-5  text-light" id="foot">
             <div class="row">
                 <div class="col">
                     <h4>Contacto</h4>
